@@ -1,0 +1,86 @@
+.error{
+    color: white;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.error ul li{
+    width: 20%;
+    border-radius: 8px;
+    padding: 0.2rem;
+    background: red;
+    list-style: none;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+table {
+    margin-top: 1rem;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table,
+td,
+th {
+    padding: 0.2rem;
+    border: 2px solid black;
+}
+
+a{text-decoration: none;}
+a:visited {
+    text-decoration: none;
+  }
+
+.button{
+    max-width: 6rem;
+    border-radius: 2px;
+    padding: 0.5rem;
+    margin-bottom: 0.2rem;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgba(116, 111, 111, 0.767);
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+.container{
+    text-align: center;
+}
+
+.container table{
+    margin: 0 auto;
+}
+.create-equip{
+   margin: 1rem;
+   text-align: left;
+}
+.create-equip a {
+    background-color: rgb(146, 146, 143);
+    color: white;
+    text-decoration: none;
+    margin: 1rem;
+    border-radius:px;
+    padding: 0.5rem;
+}
+
+.create-equip a:hover{
+    background-color: rgb(73, 73, 73);
+}
+.table-create input{
+    padding: 1rem;
+    border: none;
+
+}
