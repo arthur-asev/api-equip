@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\EquipController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -11,4 +12,6 @@ use Illuminate\Support\Facades\Route;
     Route::put('/equips/{id}',[EquipController::class,'update'])->name('equip.update');
     Route::post('/equips', [EquipController::class, 'store'])->name('equip.store');
     Route::delete('/equips/{id}', [EquipController::class, 'destroy'])->name('equip.destroy');
+
+    Route::get('/home',[HomeController::class,'index'])->name('home.index');
     });
